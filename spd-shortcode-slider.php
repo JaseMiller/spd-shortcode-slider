@@ -295,18 +295,18 @@ if(($slider_display_slide_title == 'yes') || ($slider_display_slide_excerpt =='y
 
 	// if display title is yes display title
 	if($slider_display_slide_title =='yes'){
-		?><h3><a href="<?php the_permalink();?>" title=""><?php the_title();?></a></h3> <?php 
+		?><h3><a href="<?php the_permalink();?>" title=""><?php the_title();?></a></h3><?php 
 	} 
 	// if display excerpt is yes display excerpt
 	if($slider_display_slide_excerpt == 'yes'){
-	?><p><?php the_excerpt();?></p><?php 
+	?><?php the_excerpt();?><?php 
 	} 
 	?></span><?php // close info
 } // end info if 
 
 ?></div><?php // close slide
 endwhile;  // end individual loop
-	?></div><?php // close slides div before thumbs because it needs to be in seperate thumbs for 
+?></div><?php // close slides div before thumbs because it needs to be in seperate thumbs for 
 	
 	
 // if thumbnails-bottom run thumbnails loop
