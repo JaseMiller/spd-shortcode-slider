@@ -20,27 +20,27 @@
 
 <h3 style="margin-bottom:5px;"><a name="3"></a>Embed tags:</h3>
 <p style="margin-bottom:0;">You can embed the slider directly into your template files with this code:</p>
-<input style="font-weight:bold;color:#666;" size="100" type="text" name="" value="<?php echo "<?php do_shortcode('[spd_slider]'); ?>" ; ?>" />
+<input style="font-weight:bold;color:#666;" size="100" type="text" name="" value="<?php echo "<?php do_shortcode('[spd_slider]'); ?>"  ?>" />
 
 <h3 style="margin-bottom:5px;">Complex Examples:</h3>
 <p style="margin-bottom:0;">Pages, posts and custom post types by custom taxonomy term:</p>
 <textarea style="font-weight:bold;color:#666;" cols="100" rows="2" >
 <?php 
-echo "<?php do_shortcode('[spd_slider max_slides=\"6\" slider_layout=\"buttons\"  term_slug=\"slideshow\"  tax_slug=\"display\" slider_fx=\"zoom\" ]'); ?> ;"
+echo "<?php do_shortcode('[spd_slider max_slides=\"6\" slider_layout=\"buttons\"  term_slug=\"slideshow\"  tax_slug=\"display\" slider_fx=\"zoom\" ]'); ?> "
 ?>
 </textarea>
 
 <p style="margin-bottom:0;">Posts by tag alternating between zoom and fade effects:</p>
 <textarea style="font-weight:bold;color:#666;" cols="100" rows="2" >
 <?php 
-echo "<?php do_shortcode('[spd_slider slider_layout=\"numbers-top\" post_type=\"post\" tag_id=\"72\"  slider_display_slide_excerpt=\"no\"  slider_fx=\"fade,zoom\"]'); ?> ;"
+echo "<?php do_shortcode('[spd_slider slider_layout=\"numbers-top\" post_type=\"post\" tag_id=\"72\"  slider_display_slide_excerpt=\"no\"  slider_fx=\"fade,zoom\"]'); ?> "
 ?>
 </textarea>
 
 <p style="margin-bottom:0;">Page &amp; Post by their ids:</p>
 <textarea style="font-weight:bold;color:#666;" cols="100" rows="2" >
 <?php 
-echo "<?php do_shortcode('[spd_slider slider_layout=\"thumbnails-bottom\"  pageorpost_ids=\"6,12,22,8,9\"  hidearrows=\"yes\"  ]'); ?> ;"
+echo "<?php do_shortcode('[spd_slider slider_layout=\"thumbnails-bottom\"  pageorpost_ids=\"6,12,22,8,9\"  hidearrows=\"yes\"  ]'); ?> "
 ?>
 </textarea>
 
