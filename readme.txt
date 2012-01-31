@@ -22,20 +22,9 @@ You can override plugin default CSS styles by adding #shortcodeslider to any css
 3. Place this code in template to show slider`<?php do_shortcode('[spd_slider]'); ?>`
 3. For a list of all shortcodes and supported values Go on your Dashboard > Settings > SPD Shortcode Slider
 
-
 == Screenshots ==
-Possible Layouts
 1. numbers-bottom layout
 2. numbers-top layout
 3. thumbnails-bottom layout
 4. thumbnails-side layout
 5. buttons layout
-
-== Frequently Asked Questions ==
-none yet
-
-== Changelog ==
-none yet
-
-== Upgrade Notice == 
-none yet
