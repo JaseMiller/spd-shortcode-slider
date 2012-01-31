@@ -335,6 +335,7 @@ if($slider_layout =='thumbnails-bottom'|| $slider_layout =='thumbnails-side'){
 	<div class="clear"></div>
 	</div><?php // close nav_thumb
 }// end thumbnails-bottom
+?></div><?php //close #spd-shortcode-slider
 }//  end load_spd_slider function
 
 //all actions
