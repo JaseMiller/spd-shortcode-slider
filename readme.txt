@@ -28,3 +28,15 @@ You can override plugin default CSS styles by adding #shortcodeslider to any css
 3. thumbnails-bottom layout
 4. thumbnails-side layout
 5. buttons layout
+
+== Upgrade Notice ==
+
+= 1.0 =
+if you downloaded the plugin before 12:40 1/31/2012
+I have since fixed bugs I did not notice earlier -
+removed testing 20px margin in style.css
+added missing closing div tag
+fixed extra semicolon options embed examples.
+
+Please [contact](http://sheepdogpd.com/contact/ "contact me") me if you notice any other bugs or errors and I will try and fix them.
+
