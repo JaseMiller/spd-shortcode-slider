@@ -40,3 +40,5 @@ fixed extra semicolon options embed examples.
 
 Please [contact](http://sheepdogpd.com/contact/ "contact me") me if you notice any other bugs or errors and I will try and fix them.
 
+= 1.02 =
+fixed Rss issue 
