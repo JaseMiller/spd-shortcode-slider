@@ -342,7 +342,7 @@ if($slider_layout =='thumbnails-bottom'|| $slider_layout =='thumbnails-side'){
 add_action('admin_menu', 'spd_slider_options_pg');
 add_action('admin_init', 'spd_slider_add_default_imgsize');
 add_action('template_redirect', 'spd_slider_jquery');
-add_action('template_redirect', 'spd_slider_css');
+add_action('wp_head', 'spd_slider_css');
 add_action('wp_footer', 'spd_slider_footer_scripts' );
 add_shortcode('spd_slider', 'spd_slider_handler');
 
