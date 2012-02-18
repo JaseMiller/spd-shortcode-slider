@@ -3,7 +3,8 @@ Contributors: mkjar
 Tags: featured content slider, slideshow, gallery, featured image, shortcodes, tag, term, taxonomy, category, pages, posts, jquery, multiple instances, page excerpts
 Requires at least: 3.0
 Tested up to: 3.3.1
-Stable tag: 1.02
+Stable tag: 1.03
+
 
 Jquery Featured Content Slider controlled completely by shortcodes for easy template integration (Uses featured images and has 5 default layouts).
 
@@ -30,6 +31,9 @@ You can override plugin default CSS styles by adding #shortcodeslider to any css
 5. buttons layout
 
 == Changelog ==
+= 1.03 =
+Updated Version Number
+
 = 1.02 =
 * fixed issue where styles were being output in rss header. please upgrade to fix this issue
 
@@ -42,6 +46,9 @@ Please [contact](http://sheepdogpd.com/contact/ "contact me") me if you notice a
 
 
 == Upgrade Notice ==
+= 1.03 =
+Updated Version Number
+
 = 1.02 =
 fixed RSS issue 
 

@@ -3,7 +3,7 @@ Plugin Name: SPD Shortcode Slider Plugin
 Description: Jquery Featured Content Slider controlled completely by shortcodes for easy template integration (Uses featured images and has 5 default layouts). 
 Plugin URI: http://wordpress.org/extend/plugins/spd-shortcode-slider/
 Author: sheepdogpd.com
-Version: 1.02
+Version: 1.03
 Author URI: http://www.sheepdogpd.com/
 License: GPL2
 */
