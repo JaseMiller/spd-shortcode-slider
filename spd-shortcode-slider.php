@@ -3,7 +3,7 @@ Plugin Name: SPD Shortcode Slider Plugin
 Description: Jquery Featured Content Slider controlled completely by shortcodes for easy template integration (Uses featured images and has 5 default layouts). 
 Plugin URI: http://wordpress.org/extend/plugins/spd-shortcode-slider/
 Author: sheepdogpd.com
-Version: 1.03
+Version: 1.04
 Author URI: http://www.sheepdogpd.com/
 License: GPL2
 */
@@ -81,7 +81,7 @@ $(function() {
             prev:   '#nav_previousslide',
 			fx:      '<?php echo "$slider_fx" ; ?>',
 			timeout: '<?php echo "$slider_timeout;" ;?>',
-			speed:   '<?php echo "$slider_effect_speed" ;?>',
+			speed:   '<?php echo "$slider_effect_speed" ;?>' //be sure to remove last comma for i.e 
             });
         });
 </script><?php // end numbers-bottom and buttons
@@ -97,7 +97,7 @@ elseif($slider_layout == 'numbers-top'){?>
             prev:   '#nav_previousslide',
 			fx:      '<?php echo "$slider_fx" ; ?>',
 			timeout: '<?php echo "$slider_timeout;" ;?>',
-			speed:   '<?php echo "$slider_effect_speed" ;?>',
+			speed:   '<?php echo "$slider_effect_speed" ;?>'
             });
         });
 </script><?php // end numbers-top
@@ -114,7 +114,7 @@ elseif( $slider_layout == 'thumbnails-bottom' || $slider_layout == 'thumbnails-s
             prev:   '#nav_previousslide',
 			fx:      '<?php echo "$slider_fx" ; ?>',
 			timeout: '<?php echo "$slider_timeout;" ;?>',
-			speed:   '<?php echo "$slider_effect_speed" ;?>',   
+			speed:   '<?php echo "$slider_effect_speed" ;?>'  
 	}); 
         });	
 </script><?php // end thumbnails
@@ -125,7 +125,7 @@ elseif( $slider_layout == 'plain'){ ?>
             $('#slides')
 			.cycle({
 			next:   '#nav_nextslide',
-            prev:   '#nav_previousslide',
+            prev:   '#nav_previousslide'
             });
         });
 </script><?php // end plain 

@@ -14,10 +14,6 @@
 
 <div class="clear"></div>
 <form method="post" >
-<h3 style="margin-bottom:5px;"><a name="1"></a>Shortcode:</h3>
-<p style="margin-bottom:0;">This can be used in text widgets or in within post and page editors:</p>
-<input style="font-weight:bold;color:#666;" size="100" type="text" name="" value="<?php echo "[spd_slider]" ; ?>" />
-
 <h3 style="margin-bottom:5px;"><a name="3"></a>Embed tags:</h3>
 <p style="margin-bottom:0;">You can embed the slider directly into your template files with this code:</p>
 <input style="font-weight:bold;color:#666;" size="100" type="text" name="" value="<?php echo "<?php do_shortcode('[spd_slider]'); ?>"  ?>" />
