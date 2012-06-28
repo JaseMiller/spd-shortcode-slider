@@ -2,8 +2,8 @@
 Contributors: mkjar
 Tags: featured content slider, slideshow, gallery, featured image, shortcodes, tag, term, taxonomy, category, pages, posts, jquery, multiple instances, page excerpts
 Requires at least: 3.0
-Tested up to: 3.3.1
-Stable tag: 1.04
+Tested up to: 3.4.1
+Stable tag: 1.05
 
 Jquery Featured Content Slider controlled completely by shortcodes for easy template integration (Uses featured images and has 5 default layouts).
 
@@ -33,6 +33,10 @@ To clear up any confusion about the shortcode usage: The [spd_slider] shortcode 
 5. buttons layout
 
 == Changelog ==
+
+= 1.05 =
+* Added line of css for slide divs to correct if Jquery styles take awhile to load
+
 = 1.04 =
 * Fixed JavaScript 'expected string or identifier' syntax error  - extra comma after last value in cycle function was thowing error
 
