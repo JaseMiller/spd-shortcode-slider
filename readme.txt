@@ -2,8 +2,8 @@
 Contributors: mkjar
 Tags: featured content slider, slideshow, gallery, featured image, shortcodes, tag, term, taxonomy, category, pages, posts, jquery, multiple instances, page excerpts
 Requires at least: 3.0
-Tested up to: 3.4.1
-Stable tag: 1.05
+Tested up to: 3.5
+Stable tag: 1.06
 
 Jquery Featured Content Slider controlled completely by shortcodes for easy template integration (Uses featured images and has 5 default layouts).
 
@@ -17,7 +17,6 @@ Supports custom taxonomy terms, Post AND Page excerpts*, and has 5 default layou
 You can override plugin default CSS styles by adding #shortcodeslider to any css styles in your theme stylesheet.
 
 To clear up any confusion about the shortcode usage: The [spd_slider] shortcode is NOT for embedding a image slider within a post or page content editor (i.e within the loop). If you need a shortcode image gallery plugin (that pulls all images attached to the post/page while on that post or page) there are many other plugins that do this (I recommend Raygun's Portfolio Slideshow Pro).  The SPD Shortcode Slider is for creating featured content slideshows that display the featured image, title and excerpt of selected posts/pages. It uses the [spd_slider] shortcode to facilitate adding custom variables to the slider query within the do_shortcode template tag. 
-
 
 == Installation ==
 1. Upload `spd-shortcode-slider` folder to the `/wp-content/plugins/` directory
@@ -33,6 +32,8 @@ To clear up any confusion about the shortcode usage: The [spd_slider] shortcode 
 5. buttons layout
 
 == Changelog ==
+= 1.06 =
+* linked to newer version of Jquery
 
 = 1.05 =
 * Added line of css for slide divs to correct if Jquery styles take awhile to load
