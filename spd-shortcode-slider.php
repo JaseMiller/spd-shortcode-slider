@@ -73,15 +73,15 @@ function spd_slider_footer_scripts() {
 //buttons and numbers-bottom are built the same only difference is only css styling 
 if(($slider_layout == 'buttons') ||($slider_layout == 'numbers-bottom')){ ?>
 <script type="text/javascript" charset="utf-8">
-$(function() {
-            $('#slides')
+jQuery(function() {
+            jQuery('#slides')
 			.after('<div id="nav_num">') // adds span after cycle
 			.cycle({
 			pager:  '#nav_num', 
             next:   '#nav_nextslide',
             prev:   '#nav_previousslide',
 			fx:      '<?php echo "$slider_fx" ; ?>',
-			timeout: '<?php echo "$slider_timeout;" ;?>',
+			timeout: '<?php echo "$slider_timeout" ;?>',
 			speed:   '<?php echo "$slider_effect_speed" ;?>' //be sure to remove last comma for i.e 
             });
         });
@@ -89,15 +89,15 @@ $(function() {
 } // numbers-top same as numbers-bottom except it is put BEFORE (not after) slides and has different styles
 elseif($slider_layout == 'numbers-top'){?>
 <script type="text/javascript" charset="utf-8">
-      $(function() { 
-            $('#slides')
+      jQuery(function() { 
+            jQuery('#slides')
 			.before('<div id="nav_num">') // adds span after cycle
 			.cycle({
 			pager:  '#nav_num',
 			next:   '#nav_nextslide',
             prev:   '#nav_previousslide',
 			fx:      '<?php echo "$slider_fx" ; ?>',
-			timeout: '<?php echo "$slider_timeout;" ;?>',
+			timeout: '<?php echo "$slider_timeout" ;?>',
 			speed:   '<?php echo "$slider_effect_speed" ;?>'
             });
         });
@@ -105,8 +105,8 @@ elseif($slider_layout == 'numbers-top'){?>
 }// thumbnails bottom and thumbnails side are same except for css styling
 elseif( $slider_layout == 'thumbnails-bottom' || $slider_layout == 'thumbnails-side'){ ?>
 <script type="text/javascript" charset="utf-8">
-      $(function() {
-			$('#slides')
+      jQuery(function() {
+			jQuery('#slides')
 			.cycle({ 
   			pager:  '#nav_thumb',
 			pagerAnchorBuilder: function(idx, slide) { // return selector string for existing anchor 
@@ -114,7 +114,7 @@ elseif( $slider_layout == 'thumbnails-bottom' || $slider_layout == 'thumbnails-s
 		 	next:   '#nav_nextslide',
             prev:   '#nav_previousslide',
 			fx:      '<?php echo "$slider_fx" ; ?>',
-			timeout: '<?php echo "$slider_timeout;" ;?>',
+			timeout: '<?php echo "$slider_timeout" ;?>',
 			speed:   '<?php echo "$slider_effect_speed" ;?>'  
 	}); 
         });	
@@ -122,8 +122,8 @@ elseif( $slider_layout == 'thumbnails-bottom' || $slider_layout == 'thumbnails-s
 }// plain has no numbers, buttons, or thumbs but does have default next previous arrows
 elseif( $slider_layout == 'plain'){ ?>
 <script type="text/javascript" charset="utf-8">
-      $(function() {
-            $('#slides')
+      jQuery(function() {
+            jQuery('#slides')
 			.cycle({
 			next:   '#nav_nextslide',
             prev:   '#nav_previousslide'
